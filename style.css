@@ -1,21 +1,55 @@
-p{
-    background-color: red;
-}
-h{
-    background-color: blueviolet;
-}
-div{
-    background-color: aqua;
-}
-span{
-    background-color: hotpink;
-
-}
-
 h1{
-    font-family: cursive;
-    font-style: italic;
-    color: darkmagenta;
-    background-color: khaki;
     text-align: center;
-}
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: rgb(233, 171, 14);
+  }
+  .background {
+  background-image: url("https://1stwebdesigner.com/wp-content/uploads/2017/12/colorful-logo-design-03.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh; /* Use viewport height to cover the entire screen */
+  width: 100%;
+  background-attachment: scroll;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .login-container {
+  background-color: white;
+  width: 250px;
+  height: 300px;
+  opacity: 0.6;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  border-radius: 0px 30px;
+  }
+  
+  /* Remove unnecessary styling for login inputs */
+  #login {
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 0px 0px;
+  height: 25px;
+  }
+  
+  /* Correct the image tag syntax */
+  img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: -40px;
+  margin-left: 70px;
+  margin-bottom: -20px;
+  }
+  
+  #btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px;
+  }
+  
+  #btn:hover {
+  background-color: #070907;
+  color: white;
+  }
